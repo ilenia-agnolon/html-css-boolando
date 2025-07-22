@@ -27,12 +27,17 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 800px;  
+    /* max-width: 800px;   */
     margin: 0 auto;
-    width: 100%;
+    width: 80%;
 }
 
     /* Donna. Uomo, Bambino */
+    .container-categorie {
+        display: flex;
+        align-items: center;
+    }
+
     .categoria-abbigliamento {
         display: flex;
         gap: 20px;
@@ -46,9 +51,24 @@
     }
 
     /* logo */
+    .container-logo img {
+    width: 90 px;
+    height: auto;
+    }
+
     #logo {
     width: 90px;
     height: auto;
+}
+
+
+    /* icone login, preferiti, carrello */
+    .container-icone {
+    display: flex;
+    gap: 15px;
+    color: white;
+    font-size: 16px;
+    align-items: center;  
     }
 
 /* ___________________________________ */
@@ -56,7 +76,7 @@
 /* main */
 
     main {
-        padding-top: 60px;
+        padding-top: 100px;
     }
 
 
@@ -207,3 +227,5 @@
 /* ___________________________________ */
 
 /* footer */
+
+
