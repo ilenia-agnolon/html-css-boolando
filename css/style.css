@@ -33,11 +33,6 @@
 }
 
     /* Donna. Uomo, Bambino */
-    .container-categorie {
-        display: flex;
-        align-items: center;
-    }
-
     .categoria-abbigliamento {
         display: flex;
         gap: 20px;
@@ -66,9 +61,13 @@
     .container-icone {
     display: flex;
     gap: 15px;
-    color: white;
     font-size: 16px;
     align-items: center;  
+    text-decoration: none;
+    }
+
+    i {
+        color: white;
     }
 
 /* ___________________________________ */
