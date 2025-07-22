@@ -20,6 +20,7 @@
     display: flex;
     align-items: center;
     position: fixed;
+    z-index: 1;
     }
 
 .container-navbar {
@@ -103,12 +104,68 @@
         background-color: #fd0000;
         color: white;
         font-weight: bold;
-        top: 100px;
+        bottom: 100px;
         left: 0;
         width: 50px;
         height: 20px;
-
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 11px;
     }
+
+    .sust-label {
+        position: absolute;
+        background-color: #077d03;
+        color: white;
+        font-weight: bold;
+        bottom: 100px;
+        left: 55px;
+        width: 80px;
+        height: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 11px;
+    }
+
+    .preferiti {
+        position: absolute;
+        background-color: white;
+        color: black;
+        top:10px;
+        right:0;
+        width: 30px;
+        height: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+    }
+
+
+    .brand {
+        font-size: 10px;
+    }
+
+    .descrizione-prodotto {
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .prezzo {
+        color:#fd0000;
+        font-weight: bold;
+    }
+
+    .prezzo-barrato {
+        color: black;
+        text-decoration: line-through;
+        font-size: 10px;
+    }
+
+
+    
 /* ___________________________________ */
 
 /* footer */
