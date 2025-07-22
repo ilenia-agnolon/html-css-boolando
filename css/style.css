@@ -63,7 +63,6 @@
     .container-main {
         width: 60%;
         margin: 0 auto;
-        background-color: blueviolet;
     }
 
     .row {
@@ -74,9 +73,6 @@
 
     .col {
     width: calc((100% / 3) - (20px / 3));
-    /* flex-shrink: 0; */
-   
-    background-color: rgb(226, 162, 43);
     min-height: 150px;
     }
 
