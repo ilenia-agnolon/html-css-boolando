@@ -143,7 +143,7 @@
         font-size: 18px;
     }
 
-
+/* didascalia img */
     .brand {
         font-size: 10px;
     }
@@ -162,6 +162,33 @@
         color: black;
         text-decoration: line-through;
         font-size: 10px;
+    }
+/* hover */
+    .contenitore-immagine {
+        position: relative;
+    }
+
+    .contenitore-immagine img {
+        width: 100%;
+        display: block;
+    }
+
+    .img-A {
+        position: relative;
+        z-index: 1;
+    }
+
+    .img-B {
+        position: absolute;
+        top: 0;
+    }
+
+    .contenitore-immagine:hover .img-B {
+        opacity: 1;
+    }
+
+    .contenitore-immagine:hover .img-A {
+        opacity: 0;
     }
 
 
