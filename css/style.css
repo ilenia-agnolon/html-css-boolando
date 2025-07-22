@@ -128,6 +128,11 @@
         font-size: 11px;
     }
 
+    #lab-last-img {
+        bottom: 100px;
+        left: 0;
+    }
+
     .preferiti {
         position: absolute;
         background-color: white;
